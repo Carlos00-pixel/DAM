@@ -17,6 +17,10 @@ public class Prueba {
 		int resultado= num/numero;
 		System.out.println("El resultado de la multiplicacion es "+resultado);
 	}
+	public static void potencia (int num, int numero) {
+		int resultado=(int) Math.pow(num, numero);
+		System.out.println("El resultado de la potencia es "+resultado);
+	}
 	public static void main(String[] args) {
 		int num=2;
 		int numero=4;
@@ -24,6 +28,7 @@ public class Prueba {
 		restar(num, numero);
 		multiplicar(num, numero);
 		division(num, numero);
+		potencia(num, numero);
 	}
 
 }
